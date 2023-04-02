@@ -1,0 +1,2 @@
+name,input_shape,labels
+"livingspaceidentifier","(None, 224, 224, 3)","living room interior|bedroom interior|home office interior"
