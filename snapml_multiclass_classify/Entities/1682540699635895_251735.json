@@ -1,0 +1,2900 @@
+{
+    "1682540699633718:251734": {
+        "IFileManager": {
+            "path": "Files/File_1682540699633718_251734.dnn"
+        }
+    },
+    "1682540699635895:251735": {
+        "IResourceController": {
+            "name": "celloacousticguitar",
+            "type": 22,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1682540699638624:251736",
+            "fileId": "1682540699633718:251734",
+            "originalId": "1682540699669999:251751",
+            "publicId": "1682540699742382:251770",
+            "expected_hash": "8013e3c8cb7bd4a2125b65e72ad04b5f",
+            "additional": {
+                "Inputs": [
+                    {
+                        "k": "serving_default_input_1:0",
+                        "v": {
+                            "transformParams": {
+                                "AlignFillColor": {
+                                    "w": "0",
+                                    "x": "0",
+                                    "y": "0",
+                                    "z": "0"
+                                },
+                                "FlipX": "false",
+                                "FlipY": "false",
+                                "HoriAlignment": "1",
+                                "RotationMode": "0",
+                                "VertAlignment": "1",
+                                "useStretch": "true"
+                            }
+                        }
+                    }
+                ],
+                "Outputs": [
+                    {
+                        "k": "StatefulPartitionedCall:0",
+                        "v": {
+                            "inputs": ""
+                        }
+                    }
+                ],
+                "compatibility_data": [
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "serving_default_input_1:0_normalization_fHn5j3o0",
+                        "layerType": "batchnorm"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "serving_default_input_1:0_quantize_f1nd1ngn3m0",
+                        "layerType": "quantize"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/Conv1_relu/Relu6;model/model/mobilenetv2_1.00_224/bn_Conv1/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_5_project/Conv2D;model/model/mobilenetv2_1.00_224/Conv1/Conv2D_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/Conv1_relu/Relu6;model/model/mobilenetv2_1.00_224/bn_Conv1/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_5_project/Conv2D;model/model/mobilenetv2_1.00_224/Conv1/Conv2D",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/expanded_conv_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/expanded_conv_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/expanded_conv_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_5_project/Conv2D_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/expanded_conv_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/expanded_conv_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/expanded_conv_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_5_project/Conv2D",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/expanded_conv_project_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/expanded_conv_project/Conv2D1",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_1_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_1_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_1_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_1_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_12_project/Conv2D;model/model/mobilenetv2_1.00_224/block_1_expand/Conv2D_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_1_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_1_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_1_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_1_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_12_project/Conv2D;model/model/mobilenetv2_1.00_224/block_1_expand/Conv2D",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_1_pad/Pad",
+                        "layerType": "pad"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_1_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_1_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_1_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_12_project/Conv2D_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_1_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_1_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_1_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_12_project/Conv2D",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_1_project_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_2_project/Conv2D;model/model/mobilenetv2_1.00_224/block_1_project/Conv2D1",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_2_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_2_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_3_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_3_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_2_expand/Conv2D_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_2_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_2_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_3_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_3_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_2_expand/Conv2D",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_2_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_2_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_3_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_3_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_2_depthwise/depthwise_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_2_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_2_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_3_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_3_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_2_depthwise/depthwise",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_2_project_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_2_project/Conv2D1",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_2_add/add",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_3_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_3_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_3_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_3_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_3_expand/Conv2D_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_3_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_3_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_3_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_3_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_3_expand/Conv2D",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_3_pad/Pad",
+                        "layerType": "pad"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_3_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_3_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_3_depthwise/depthwise_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_3_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_3_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_3_depthwise/depthwise",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_3_project_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_5_project/Conv2D;model/model/mobilenetv2_1.00_224/block_3_project/Conv2D1",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_4_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_4_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_6_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_6_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_4_expand/Conv2D_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_4_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_4_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_6_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_6_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_4_expand/Conv2D",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_4_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_4_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_6_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_6_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_4_depthwise/depthwise_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_4_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_4_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_6_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_6_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_4_depthwise/depthwise",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_4_project_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_5_project/Conv2D;model/model/mobilenetv2_1.00_224/block_4_project/Conv2D1",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_4_add/add",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_5_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_5_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_6_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_6_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_5_expand/Conv2D_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_5_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_5_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_6_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_6_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_5_expand/Conv2D",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_5_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_5_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_6_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_6_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_5_depthwise/depthwise_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_5_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_5_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_6_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_6_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_5_depthwise/depthwise",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_5_project_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_5_project/Conv2D1",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_5_add/add",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_6_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_6_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_6_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_6_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_6_expand/Conv2D_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_6_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_6_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_6_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_6_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_6_expand/Conv2D",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_6_pad/Pad",
+                        "layerType": "pad"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_6_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_6_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_6_depthwise/depthwise_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_6_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_6_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_6_depthwise/depthwise",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_6_project_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_9_project/Conv2D;model/model/mobilenetv2_1.00_224/block_6_project/Conv2D1",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_7_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_7_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_10_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_10_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_7_expand/Conv2D_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_7_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_7_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_10_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_10_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_7_expand/Conv2D",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_7_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_7_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_10_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_10_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_7_depthwise/depthwise_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_7_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_7_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_10_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_10_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_7_depthwise/depthwise",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_7_project_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_9_project/Conv2D;model/model/mobilenetv2_1.00_224/block_7_project/Conv2D1",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_7_add/add",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_8_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_8_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_10_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_10_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_8_expand/Conv2D_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_8_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_8_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_10_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_10_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_8_expand/Conv2D",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_8_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_8_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_10_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_10_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_8_depthwise/depthwise_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_8_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_8_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_10_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_10_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_8_depthwise/depthwise",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_8_project_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_9_project/Conv2D;model/model/mobilenetv2_1.00_224/block_8_project/Conv2D1",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_8_add/add",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_9_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_9_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_10_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_10_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_9_expand/Conv2D_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_9_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_9_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_10_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_10_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_9_expand/Conv2D",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_9_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_9_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_10_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_10_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_9_depthwise/depthwise_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_9_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_9_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_10_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_10_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_9_depthwise/depthwise",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_9_project_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_9_project/Conv2D1",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_9_add/add",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_10_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_10_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_10_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_10_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_10_expand/Conv2D_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_10_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_10_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_10_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_10_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_10_expand/Conv2D",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_10_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_10_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_10_depthwise/depthwise_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_10_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_10_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_10_depthwise/depthwise",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_10_project_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_12_project/Conv2D;model/model/mobilenetv2_1.00_224/block_10_project/Conv2D1",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_11_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_11_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_13_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_13_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_11_expand/Conv2D_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_11_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_11_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_13_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_13_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_11_expand/Conv2D",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_11_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_11_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_13_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_13_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_11_depthwise/depthwise_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_11_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_11_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_13_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_13_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_11_depthwise/depthwise",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_11_project_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_12_project/Conv2D;model/model/mobilenetv2_1.00_224/block_11_project/Conv2D1",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_11_add/add",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_12_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_12_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_13_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_13_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_12_expand/Conv2D_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_12_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_12_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_13_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_13_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_12_expand/Conv2D",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_12_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_12_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_13_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_13_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_12_depthwise/depthwise_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_12_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_12_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_13_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_13_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_12_depthwise/depthwise",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_12_project_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_12_project/Conv2D1",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_12_add/add",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_13_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_13_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_13_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_13_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_13_expand/Conv2D_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_13_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_13_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_13_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_13_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_13_expand/Conv2D",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_13_pad/Pad",
+                        "layerType": "pad"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_13_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_13_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_13_depthwise/depthwise_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_13_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_13_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_13_depthwise/depthwise",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_13_project_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_15_project/Conv2D;model/model/mobilenetv2_1.00_224/block_13_project/Conv2D1",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_14_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_14_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_16_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_16_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_14_expand/Conv2D_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_14_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_14_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_16_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_16_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_14_expand/Conv2D",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_14_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_14_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_16_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_16_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_14_depthwise/depthwise_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_14_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_14_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_16_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_16_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_14_depthwise/depthwise",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_14_project_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_15_project/Conv2D;model/model/mobilenetv2_1.00_224/block_14_project/Conv2D1",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_14_add/add",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_15_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_15_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_16_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_16_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_15_expand/Conv2D_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_15_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_15_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_16_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_16_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_15_expand/Conv2D",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_15_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_15_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_16_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_16_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_15_depthwise/depthwise_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_15_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_15_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_16_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_16_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_15_depthwise/depthwise",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_15_project_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_15_project/Conv2D1",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_15_add/add",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_16_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_16_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_16_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_16_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_16_expand/Conv2D_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_16_expand_relu/Relu6;model/model/mobilenetv2_1.00_224/block_16_expand_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_16_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_16_depthwise/depthwise;model/model/mobilenetv2_1.00_224/block_16_expand/Conv2D",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_16_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_16_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_16_depthwise/depthwise_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_16_depthwise_relu/Relu6;model/model/mobilenetv2_1.00_224/block_16_depthwise_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_16_depthwise/depthwise",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/block_16_project_BN/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/block_16_project/Conv2D1",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/out_relu/Relu6;model/model/mobilenetv2_1.00_224/Conv_1_bn/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/Conv_1/Conv2D_unfused_operation_c88532f94",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/mobilenetv2_1.00_224/out_relu/Relu6;model/model/mobilenetv2_1.00_224/Conv_1_bn/FusedBatchNormV3;model/model/mobilenetv2_1.00_224/Conv_1/Conv2D",
+                        "layerType": "relu6"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/global_average_pooling2d_1/Mean_unfused_operation_c88532f94",
+                        "layerType": "pool"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "model/model/dense/MatMul;model/model/dense/BiasAdd",
+                        "layerType": "fullyconnected"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "StatefulPartitionedCall:0_dequantize_f1nd1ngn3m0",
+                        "layerType": "softmax"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "StatefulPartitionedCall:0",
+                        "layerType": "dequantize"
+                    }
+                ],
+                "isCompressed": "false",
+                "normalization_data": {
+                    "StatefulPartitionedCall:0": {
+                        "bias": [
+                            "0",
+                            "0",
+                            "0"
+                        ],
+                        "scale": [
+                            "1",
+                            "1",
+                            "1"
+                        ]
+                    },
+                    "serving_default_input_1:0": {
+                        "bias": [
+                            "-1",
+                            "-1",
+                            "-1"
+                        ],
+                        "scale": [
+                            "0.0078125",
+                            "0.0078125",
+                            "0.0078125"
+                        ]
+                    }
+                }
+            }
+        },
+        "IResourceManager": {
+            "uid": "1682540699638624:251736",
+            "name": "Files/File_1682540699633718_251734.dnn",
+            "flags": 1
+        }
+    },
+    "1682540699638624:251736": {
+        "Compression::IController": {
+            "compressed_files": "",
+            "infos": {
+                "compressedSize": "2368966",
+                "extension": "dnn",
+                "originalSize": "2368966",
+                "settings": {
+                    "isCompressed": "false"
+                }
+            },
+            "uncompressed_file": "1682540699679040:251753"
+        }
+    },
+    "1682540699669999:251751": {
+        "IFileManager": {
+            "path": "Files/File_1682540699669999_251751.tflite"
+        }
+    },
+    "1682540699679040:251753": {
+        "IFileManager": {
+            "path": "Files/File_1682540699679040_251753.dnn"
+        }
+    },
+    "1682540699742382:251770": {
+        "IResourceController": {
+            "public": {
+                "path": "Instrument Classification Resources/Models/celloacousticguitar.tflite",
+                "hash": "a9a5cb47fbadbcb1378edf6d4c07b095"
+            }
+        }
+    }
+}

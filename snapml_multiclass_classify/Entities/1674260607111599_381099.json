@@ -1,0 +1,22 @@
+{
+    "1674260607111469:380588": {
+        "IResourceController": {
+            "public": {
+                "path": "ML Hint/Materials"
+            }
+        }
+    },
+    "1674260607111599:381099": {
+        "IResourceController": {
+            "name": "Materials",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1674260607111469:380588",
+            "resources": [
+                "1674260607111229:380355"
+            ]
+        }
+    }
+}

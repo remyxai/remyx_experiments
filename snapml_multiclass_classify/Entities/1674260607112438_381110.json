@@ -1,0 +1,23 @@
+{
+    "1674260607111479:380613": {
+        "IResourceController": {
+            "public": {
+                "path": "Progress Bar Panel/Scripts"
+            }
+        }
+    },
+    "1674260607112438:381110": {
+        "IResourceController": {
+            "name": "Scripts",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1674260607111479:380613",
+            "resources": [
+                "1674260607111233:380392",
+                "1674260607111234:380395"
+            ]
+        }
+    }
+}

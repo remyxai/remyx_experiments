@@ -1,0 +1,33 @@
+{
+    "1674260607111226:380327": {
+        "IResourceController": {
+            "name": "MultiClassClassification",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1648167115299821:3349720",
+            "fileId": "1674260607111287:380445",
+            "publicId": "1674260607111474:380602",
+            "expected_hash": "eb2722eea1b712b342c6b8414cc499fa"
+        },
+        "IResourceManager": {
+            "uid": "1648167115299821:3349720",
+            "name": "Files/File_1674260607111287_380445.js",
+            "flags": 1
+        }
+    },
+    "1674260607111287:380445": {
+        "IFileManager": {
+            "path": "Files/File_1674260607111287_380445.js"
+        }
+    },
+    "1674260607111474:380602": {
+        "IResourceController": {
+            "public": {
+                "path": "Scripts/MultiClassClassification.js",
+                "hash": "eb2722eea1b712b342c6b8414cc499fa"
+            }
+        }
+    }
+}

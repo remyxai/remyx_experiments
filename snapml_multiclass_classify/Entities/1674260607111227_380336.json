@@ -1,0 +1,33 @@
+{
+    "1674260607111227:380336": {
+        "IResourceController": {
+            "name": "SquareTextureCrop",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1648228944448908:672279",
+            "fileId": "1674260607111306:380461",
+            "publicId": "1674260607111474:380603",
+            "expected_hash": "24ad9e66db77e7e2ebfab5c543e9e762"
+        },
+        "IResourceManager": {
+            "uid": "1648228944448908:672279",
+            "name": "Files/File_1674260607111306_380461.js",
+            "flags": 1
+        }
+    },
+    "1674260607111306:380461": {
+        "IFileManager": {
+            "path": "Files/File_1674260607111306_380461.js"
+        }
+    },
+    "1674260607111474:380603": {
+        "IResourceController": {
+            "public": {
+                "path": "Scripts/SquareTextureCrop.js",
+                "hash": "24ad9e66db77e7e2ebfab5c543e9e762"
+            }
+        }
+    }
+}

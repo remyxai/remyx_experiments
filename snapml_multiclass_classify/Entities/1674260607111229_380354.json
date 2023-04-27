@@ -1,0 +1,80 @@
+{
+    "1648498765574229:3833254": {
+        "Compression::IController": {
+            "compressed_files": [
+                {
+                    "k": {
+                        "settings_hash": "2049",
+                        "uncompressed_hash": "32f3e7b4d3ffb6b1aeac44ac5b280814"
+                    },
+                    "v": "1674260607111346:380496"
+                }
+            ],
+            "infos": {
+                "compressedRAM": "131072",
+                "compressedSize": "9171",
+                "extension": "png",
+                "originalRAM": "1048576",
+                "originalSize": "15001",
+                "settings": {
+                    "isCompressed": "true",
+                    "level": "2",
+                    "subtype": "9",
+                    "type": "1"
+                }
+            },
+            "uncompressed_file": "1674260607111343:380493"
+        }
+    },
+    "1674260607111229:380354": {
+        "IResourceController": {
+            "name": "ml_hint_hexagon",
+            "type": 1,
+            "subtype": 9,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1648498765574229:3833254",
+            "fileId": "1674260607111341:380491",
+            "originalId": "1674260607111342:380492",
+            "publicId": "1674260607111475:380605",
+            "expected_hash": "981f5acef34e63e9500ee95c7e66a889",
+            "additional": {
+                "originHash": "32f3e7b4d3ffb6b1aeac44ac5b280814",
+                "subtype": "9"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1648498765574229:3833254",
+            "name": "Files/File1073.jpg",
+            "flags": 1
+        }
+    },
+    "1674260607111341:380491": {
+        "IFileManager": {
+            "path": "Files/File_1674260607111341_380491.pvr"
+        }
+    },
+    "1674260607111342:380492": {
+        "IFileManager": {
+            "path": "Files/File_1674260607111342_380492.png"
+        }
+    },
+    "1674260607111343:380493": {
+        "IFileManager": {
+            "path": "Files/File_1674260607111343_380493.png"
+        }
+    },
+    "1674260607111346:380496": {
+        "IFileManager": {
+            "path": "Files/File_1674260607111346_380496.pvr"
+        }
+    },
+    "1674260607111475:380605": {
+        "IResourceController": {
+            "public": {
+                "path": "ML Hint/Textures/ml_hint_hexagon.png",
+                "hash": "32f3e7b4d3ffb6b1aeac44ac5b280814"
+            }
+        }
+    }
+}

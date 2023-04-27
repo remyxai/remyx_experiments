@@ -1,0 +1,25 @@
+{
+    "1674260607111469:380587": {
+        "IResourceController": {
+            "public": {
+                "path": "ML Hint/Textures"
+            }
+        }
+    },
+    "1674260607111604:381100": {
+        "IResourceController": {
+            "name": "Textures",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1674260607111469:380587",
+            "resources": [
+                "1674260607111222:380302",
+                "1674260607111229:380354",
+                "1674260607111230:380363",
+                "1682295495011888:14621981"
+            ]
+        }
+    }
+}

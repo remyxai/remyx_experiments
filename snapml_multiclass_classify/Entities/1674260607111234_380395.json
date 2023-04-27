@@ -1,0 +1,33 @@
+{
+    "1674260607111234:380395": {
+        "IResourceController": {
+            "name": "ProgressBar",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1649719434797821:8205904",
+            "fileId": "1674260607111432:380569",
+            "publicId": "1674260607111479:380615",
+            "expected_hash": "14767876bed1336a52b0ed84d0c1eb64"
+        },
+        "IResourceManager": {
+            "uid": "1649719434797821:8205904",
+            "name": "Files/File_1674260607111432_380569.js",
+            "flags": 1
+        }
+    },
+    "1674260607111432:380569": {
+        "IFileManager": {
+            "path": "Files/File_1674260607111432_380569.js"
+        }
+    },
+    "1674260607111479:380615": {
+        "IResourceController": {
+            "public": {
+                "path": "Progress Bar Panel/Scripts/ProgressBar.js",
+                "hash": "14767876bed1336a52b0ed84d0c1eb64"
+            }
+        }
+    }
+}

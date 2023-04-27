@@ -1,0 +1,39 @@
+{
+    "1674260607111234:380394": {
+        "IResourceController": {
+            "name": "ProgressBarMaterial",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1649719432872063:8201462",
+            "fileId": "1674260607111430:380567",
+            "originalId": "1674260607111431:380568",
+            "publicId": "1674260607111479:380614",
+            "expected_hash": "28a52f7dd5f7280f4955387063ab8188"
+        },
+        "IResourceManager": {
+            "uid": "1649719432872063:8201462",
+            "name": "Files/File_1674260607111430_380567",
+            "flags": 1
+        }
+    },
+    "1674260607111430:380567": {
+        "IFileManager": {
+            "path": "Files/File_1674260607111430_380567"
+        }
+    },
+    "1674260607111431:380568": {
+        "IFileManager": {
+            "path": "Files/File_1674260607111431_380568.lsmat"
+        }
+    },
+    "1674260607111479:380614": {
+        "IResourceController": {
+            "public": {
+                "path": "Progress Bar Panel/ProgressBarMaterial.lsmat",
+                "hash": "f9e56151ee37676cdef90dc9aba2b1c6"
+            }
+        }
+    }
+}

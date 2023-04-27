@@ -1,0 +1,39 @@
+{
+    "1674260607111233:380393": {
+        "IResourceController": {
+            "name": "Progress Bar Prefab",
+            "type": 12,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1649719294263653:8098896",
+            "fileId": "1674260607111427:380565",
+            "originalId": "1674260607111429:380566",
+            "publicId": "1674260607111478:380612",
+            "expected_hash": "f50e6af8ba2543e2f712d675468808cb"
+        },
+        "IResourceManager": {
+            "uid": "1649719294263653:8098896",
+            "name": "Progress Bar - Origin",
+            "flags": 0
+        }
+    },
+    "1674260607111427:380565": {
+        "IFileManager": {
+            "path": "Files/File_1674260607111427_380565.oprfb"
+        }
+    },
+    "1674260607111429:380566": {
+        "IFileManager": {
+            "path": "Files/File_1674260607111429_380566.oprfb"
+        }
+    },
+    "1674260607111478:380612": {
+        "IResourceController": {
+            "public": {
+                "path": "Progress Bar Panel/Progress Bar Prefab.oprfb",
+                "hash": "0d322f06f448176efdbabc9ab17e8750"
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "1674260607111229:380355": {
+        "IResourceController": {
+            "name": "hint_image_masked",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1648498765866780:3833335",
+            "fileId": "1674260607111344:380494",
+            "originalId": "1674260607111345:380495",
+            "publicId": "1674260607111475:380606",
+            "expected_hash": "10d8838f3c438c463fe234ab22b027ca",
+            "additional": {
+                "isUnpackedInPublic": "false"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1648498765866780:3833335",
+            "name": "Files/File_1674260607111344_380494",
+            "flags": 1
+        }
+    },
+    "1674260607111344:380494": {
+        "IFileManager": {
+            "path": "Files/File_1674260607111344_380494"
+        }
+    },
+    "1674260607111345:380495": {
+        "IFileManager": {
+            "path": "Files/File_1674260607111345_380495.lsmat"
+        }
+    },
+    "1674260607111475:380606": {
+        "IResourceController": {
+            "public": {
+                "path": "ML Hint/Materials/hint_image_masked.lsmat",
+                "hash": "951b29a2779d10328dc004cd8109306e"
+            }
+        }
+    }
+}
